@@ -1,0 +1,94 @@
+{
+    "news": [
+        {
+            "name": "Ars Technica TECH",
+            "feedURI": "http://feeds.arstechnica.com/arstechnica/technology-lab",
+            "albumImage": "https://pbs.twimg.com/profile_images/2215576731/ars-logo_400x400.png",
+            "backgroundImage": "./bg/ars_technica_background.png",
+            "imageFolder": "./gen/ars",
+            "fontColor": "#fff",
+            "source": "rss"
+        },
+        {
+            "name": "CNET News",
+            "feedURI": "https://www.cnet.com/rss/news/",
+            "albumImage": "https://cnet4.cbsistatic.com/fly/bundles/cnetcss/images/core/redball/logo_192.png",
+            "backgroundImage": "./bg/cnet_background.png",
+            "imageFolder": "./gen/cnet",
+            "fontColor": "#fff",
+            "source": "rss"
+        },
+        {
+            "name": "CNN World",
+            "feedURI": "http://rss.cnn.com/rss/edition_world.rss",
+            "albumImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/1200px-CNN.svg.png",
+            "backgroundImage": "./bg/cnn_background.png",
+            "imageFolder": "./gen/cnn",
+            "fontColor": "#fff",
+            "source": "rss"
+        },
+        {
+            "name": "BBC World",
+            "feedURI": "http://feeds.bbci.co.uk/news/world/rss.xml",
+            "albumImage": "https://upload.wikimedia.org/wikipedia/commons/e/eb/BBC.svg",
+            "backgroundImage": "./bg/bbc_background.png",
+            "imageFolder": "./gen/bbc",
+            "fontColor": "#fff",
+            "source": "rss"
+        },
+        {
+            "name": "Yle Uutiset",
+            "feedURI": "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
+            "albumImage": "https://images.cdn.yle.fi/image/upload/f_auto,fl_progressive/q_88/w_972,h_972,c_crop,x_483,y_63/w_1400,h_1080,c_fit/v1445529201/17-2043254eef129bf7ac.jpg",
+            "backgroundImage": "./bg/yle_background.png",
+            "imageFolder": "./gen/yle",
+            "fontColor": "#fff",
+            "source": "rss"
+        },
+        {
+            "name": "Reuters",
+            "feedURI": "http://feeds.reuters.com/reuters/topNews",
+            "albumImage": "https://pbs.twimg.com/profile_images/1194751949821939712/3VBu4_Sa_400x400.jpg",
+            "backgroundImage": "./bg/reuters_background.png",
+            "imageFolder": "./gen/reuters",
+            "fontColor": "#fff",
+            "source": "rss"
+        },
+        {
+            "name": "IGN",
+            "feedURI": "http://feeds.feedburner.com/ign/games-all",
+            "albumImage": "https://upload.wikimedia.org/wikipedia/commons/d/d4/IGN_Logo.png",
+            "backgroundImage": "./bg/ign_background.png",
+            "imageFolder": "./gen/ign",
+            "fontColor": "#fff",
+            "source": "rss"
+        },
+        {
+            "name": "Reddit r/worldnews",
+            "feedURI": "worldnews",
+            "albumImage": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Reddit_logo_orange.svg",
+            "backgroundImage": "./bg/reddit_background.png",
+            "imageFolder": "./gen/rworldnews",
+            "fontColor": "#fff",
+            "source": "reddit"
+        },
+        {
+            "name": "Reddit r/technology",
+            "feedURI": "technology",
+            "albumImage": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Reddit_logo_orange.svg",
+            "backgroundImage": "./bg/reddit_background.png",
+            "imageFolder": "./gen/rtech",
+            "fontColor": "#fff",
+            "source": "reddit"
+        },
+        {
+            "name": "Reddit r/coronavirus",
+            "feedURI": "coronavirus",
+            "albumImage": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Reddit_logo_orange.svg",
+            "backgroundImage": "./bg/reddit_background.png",
+            "imageFolder": "./gen/rcorona",
+            "fontColor": "#fff",
+            "source": "reddit"
+        }
+    ]
+}

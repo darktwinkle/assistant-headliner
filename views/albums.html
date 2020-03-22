@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Assistant Headliner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400i&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <style>
+        button {
+            border: none;
+        }
+        a.card:hover {
+            cursor: pointer;
+            background-color: #f0f0f0;
+        }
+        a.card:focus {
+            background-color: #ffffff;
+        }
+        h1{
+            font-family: 'Lexend Deca', sans-serif;
+            font-size: 35px;
+            display: inline;
+            padding-top: 5px;
+            line-height: 200%;
+        }
+        h2 {
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            margin: 5px;
+            display: contents;
+            line-height: 1;
+        }
+        span {
+            padding-top: 5px;
+            text-align: center;
+        }
+        img {
+            max-width:140px;
+            max-height:140px;
+            width:auto;
+            height:auto;
+        }
+        .card {
+            border-radius: 5px;
+            height: 150px;
+            width: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-wrapper {
+            margin: 25px;
+            width: 200px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+        }
+        .albums-container {
+            display: flex;
+            flex-direction: row;
+            flex-flow: wrap;
+            justify-content: center;
+            margin: 50px;
+        }
+        .nav-wrapper {
+            background-color: #ffffff;
+            height: 75px;
+            text-align: center;
+            box-shadow: 0px 3px 5px #aaaaaa;
+
+        }
+        .page-footer {
+            background-color: #4285F4;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-wrapper">
+        <h1 class="brand-logo center">
+            <span style="color: #555555;">Assistant</span>
+            <span style="color: #4285F4;">H</span><span style="color: #DB4437; transform: rotate(-22deg) translate(-3px, -1px); display: inline-block;">e</span><span style="color: #0F9D58;">a</span><span style="color: #DB4437;">d</span><span style="color: #F4B400;">l</span><span style="color: #0F9D58;">i</span><span style="color: #4285F4;">n</span><span style="color: #DB4437; transform: rotate(-22deg) translate(-3px, -1px); display: inline-block;">e</span><span style="color: #0F9D58;">r </span>
+        </h1>
+    </div>
+    <div class="albums-container">
+        {{#albums}}
+        <div class="card-wrapper">
+            <a class="card waves-effect" href={{url}} target="_blank">
+                <img src={{albumImage}} alt="Logo">
+            </a>
+            <span><h2>{{title}}</h2></span>
+        </div>
+        {{/albums}}
+    </div>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Assistant Headliner</h5>
+                    <p class="grey-text text-lighten-4">
+                        Ever feel so frustrated about a company you love not adding a simple feature requested by many?<br>
+                        Ever feel so frustrated you say 'F#ck this, I'll do it myself!'?<br>
+                        Well, we did.<br>
+                        So, we created Headliner Assistant. A nifty piece of software that creates images and albums of
+                        headlines from your favourite RSS feeds and subreddits to your Google Photos, so you can assign them
+                        to your Google Nest Hub's photoframe feature.
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Assistant Headliner on <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="GitHub logo" style="max-height: 12px; filter: brightness(0) invert(1)"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 AA Club
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
