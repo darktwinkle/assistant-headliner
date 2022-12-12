@@ -9,7 +9,7 @@
   "author": "Ali Abdollahi & Aki Saastamoinen",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "googleapis": "^39.2.0",
     "googlephotos": "0.2.5",
     "mustache": "^4.0.1",
